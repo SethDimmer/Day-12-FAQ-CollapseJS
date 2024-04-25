@@ -25,8 +25,8 @@
           <i class="fas fa-times"></i>
         </button>
       </div>
-
-      <div class="faq">
+        <!-- faq is the parentNode -->
+      <div class="faq"> 
         <h3 class="faq-title">
           What do you call someone with no body and no nose?
         </h3>
@@ -34,6 +34,11 @@
           Nobody knows.
         </p>
         <button class="faq-toggle">
+          <!-- faq--toggle is the child so 
+            toggle.parentNode will refer to the 
+            faq class that CONTAINS THE BUTTON 
+            so the active class
+          is toggled on and off -->
           <i class="fas fa-chevron-down"></i>
           <i class="fas fa-times"></i>
         </button>

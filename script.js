@@ -1,6 +1,6 @@
 const toggles = document.querySelectorAll(".faq-toggle")
 
-console.log(toggles)
+// console.log(toggles)
 
 toggles.forEach(toggle => {
     console.log(toggle)
